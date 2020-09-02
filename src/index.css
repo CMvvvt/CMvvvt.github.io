@@ -11,7 +11,10 @@ html {
     padding-bottom: 0;
     margin-bottom: 2px;
 }
-
+.p-0{
+    background-image: url("../src/asset/img/background-img5.jpg");
+    background-size: 100% 100%;
+}
 .navbar{
     background-color: white;
 }
@@ -160,6 +163,8 @@ html {
 
 .profile-page, .about-page, .contact-page, .split-middle{
     background-color: #dcdcd3;
+    background-image: url("../src/asset/img/background-img4.jpg");
+    background-size:100% 100%;
     padding-bottom: 30px;
 }
 
