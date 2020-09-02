@@ -36,10 +36,10 @@ html {
 }
 
 .g-card-image {
-    border-radius: 10px;
+    border-radius: .5em;
     width: 300px;
     height: 480px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .g-card-image:hover {
@@ -92,9 +92,16 @@ html {
 .fa-weixin:hover,
 .fa-linkedin:hover,
 .fa-github:hover {
-    color:#d5d5d5;
+    transform: scale(1.2,1.2);
 }
 
+.fa-facebook,
+.fa-github,
+.fa-instagram,
+.fa-weixin,
+.fa-linkedin{
+    transition: 0.3s ease;
+}
 
 .icons {
     width:100%;
