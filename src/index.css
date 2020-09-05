@@ -11,10 +11,7 @@ html {
     padding-bottom: 0;
     margin-bottom: 2px;
 }
-.p-0{
-    background-image: url("../src/asset/img/background-img5.jpg");
-    background-size: 100% 100%;
-}
+
 .navbar{
     background-color: white;
 }
@@ -35,18 +32,21 @@ html {
 .g-card {
     margin-left: 60px;
     margin-right: 60px;
-    
+    transition: .5s ease;  
 }
+
 
 .g-card-image {
     border-radius: .5em;
     width: 300px;
     height: 480px;
     box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .5s ease;
 }
 
 .g-card-image:hover {
     cursor: pointer;
+
 }
 
 .g-card-info {

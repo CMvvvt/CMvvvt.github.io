@@ -19,6 +19,7 @@ class SearchBar extends React.Component {
                         value = {this.state.term}
                         onChange={e => this.setState({term: e.target.value})}
                         />  
+                        <button type="submit" class="btn btn-outline-primary" style={{margin:"1rem"}}>Search</button>
                     </div>
                 </form>
             </div>
