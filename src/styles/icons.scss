@@ -1,0 +1,45 @@
+.icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4%;
+  margin-top: 4%;
+}
+
+.social a {
+  margin: 2.5rem;
+  font-size: 3em;
+  text-align: center;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-weixin:hover,
+.fa-linkedin:hover,
+.fa-github:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.fa-facebook,
+.fa-github,
+.fa-instagram,
+.fa-weixin,
+.fa-linkedin {
+  transition: 0.3s ease;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-instagram {
+  color: #3f729b;
+}
+
+.fa-weixin {
+  color: #93d034;
+}
+
+.fa-github {
+  color: black;
+}
