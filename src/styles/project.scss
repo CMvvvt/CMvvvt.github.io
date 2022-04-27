@@ -1,0 +1,24 @@
+.split-left {
+  width: 15%;
+}
+
+.split-middle {
+  width: 70%;
+}
+
+.split-right {
+  width: 15%;
+}
+
+.split-left,
+.split-middle,
+.split-right {
+  float: left;
+  height: 95vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0)
+    ),
+    url('../assets/sunset.jpg');
+}

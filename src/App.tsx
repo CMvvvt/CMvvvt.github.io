@@ -2,8 +2,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import Container from './components/Container';
-import Intro from './components/Intro';
+import Intro from './components/pages/Intro';
 import NavBar from './components/NavBar';
+import ProjectHome from './components/pages/ProjectHome';
 
 //Conventional props
 function Heading({ title }: { title?: string }) {
@@ -63,9 +64,10 @@ function List<ListItem>({
 
 function App() {
   return (
-    <div>
+    <div className="top-header">
       <NavBar></NavBar>
       <Intro></Intro>
+      <ProjectHome />
     </div>
   );
 }

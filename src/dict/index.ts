@@ -1,3 +1,4 @@
+import wechat from '../assets/wechat.jpg';
 export type item = {
   id: number;
   title: string;
@@ -6,12 +7,12 @@ export type item = {
 };
 
 export const items: item[] = [
-  {
-    id: 0,
-    title: 'facebook',
-    name: 'fab fa-facebook',
-    link: 'https://www.facebook.com/people/Ming-Chen/100034166210476',
-  },
+  // {
+  //   id: 0,
+  //   title: 'facebook',
+  //   name: 'fab fa-facebook',
+  //   link: 'https://www.facebook.com/people/Ming-Chen/100034166210476',
+  // },
   {
     id: 1,
     title: 'instagram',
@@ -28,7 +29,7 @@ export const items: item[] = [
     id: 3,
     title: 'wechat',
     name: 'fab fa-weixin',
-    link: 'https://www.linkedin.com/in/ming-chen-aa7387182/',
+    link: wechat,
   },
   {
     id: 4,
