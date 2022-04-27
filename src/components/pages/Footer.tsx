@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { ReactComponent as Typescript } from '../../assets/typescript-icon.svg';
 import { ReactComponent as Sass } from '../../assets/sass-icon.svg';
 import { ReactComponent as ReactIcon } from '../../assets/react-icon.svg';
@@ -10,9 +9,15 @@ function Footer() {
     <div className="tech-stack">
       <p>This website used these tools.</p>
       <div>
-        <Typescript className={item} />
-        <Sass className={item} />
-        <ReactIcon className={item} />
+        <a href="https://www.typescriptlang.org/" target="_blank">
+          <Typescript className={item} />{' '}
+        </a>
+        <a href="https://sass-lang.com/" target="_blank">
+          <Sass className={item} />
+        </a>
+        <a href="https://reactjs.org/" target="_blank">
+          <ReactIcon className={item} />
+        </a>
       </div>
     </div>
   );
