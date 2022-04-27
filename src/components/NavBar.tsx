@@ -19,9 +19,13 @@ function NavBar() {
 
   return (
     <>
-      <Navbar bg="light" variant="light" sticky="top">
+      <Navbar bg="light" variant="light" sticky="top" className="navbar">
         <Container fluid>
-          <Navbar.Brand href="#home" className="px-3">
+          <Navbar.Brand
+            href="#"
+            className="px-3"
+            onClick={(e) => handleClick(e, 'top-header')}
+          >
             Ming
           </Navbar.Brand>
           <Nav className="px-3 ">

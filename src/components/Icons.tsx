@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Row from 'react-bootstrap/Row';
 import { item, items } from '../dict';
 import '../styles/icons.scss';
 

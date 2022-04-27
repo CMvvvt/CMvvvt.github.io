@@ -47,7 +47,11 @@ function Intro() {
         .
       </p>
       <br />
-
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <LightSpeed left>
         <p className="check">Check my other pages:</p>
       </LightSpeed>
