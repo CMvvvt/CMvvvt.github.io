@@ -1,29 +1,8 @@
-.split-left {
-  width: 15%;
-}
-
-.split-middle {
-  width: 70%;
-}
-
-.split-right {
-  width: 15%;
-}
-
-.split-left,
-.split-middle,
-.split-right {
-  float: left;
-  height: 90vh;
+.project-page {
   margin-top: 10rem;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 1),
-      rgba(255, 255, 255, 0)
-    ),
-    url('../assets/sunset.jpg');
+  margin-left: 15rem;
+  margin-right: 15rem;
 }
-
 .projects-layout {
   display: flex;
   justify-content: space-around;

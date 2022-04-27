@@ -1,12 +1,8 @@
-import * as React from 'react';
-import Container from '../Container';
 import '../../styles/intro.scss';
 import Avatar from '../Avatar';
 import similan from '../../assets/similan.jpg';
 import Icons from '../Icons';
-const Zoom = require('react-reveal/Zoom');
 const LightSpeed = require('react-reveal/LightSpeed');
-const Reveal = require('react-reveal/Reveal');
 
 function Intro() {
   return (
@@ -46,12 +42,7 @@ function Intro() {
         </a>
         .
       </p>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+
       <LightSpeed left>
         <p className="check">Check my other pages:</p>
       </LightSpeed>

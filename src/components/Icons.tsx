@@ -4,7 +4,7 @@ import '../styles/icons.scss';
 
 function IconInfo({ item, key }: { item: item; key: number }) {
   return (
-    <div className="social">
+    <div className="social" key={key}>
       <a href={item.link} target="_blank">
         <i className={item.name}></i>
       </a>

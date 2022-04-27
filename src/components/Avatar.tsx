@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { classicNameResolver } from 'typescript';
 import '../styles/avatar.scss';
 
 type propsType = {

@@ -1,11 +1,9 @@
 import * as React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import { Container, Nav } from 'react-bootstrap';
-import '../styles/navBar.scss';
+import '../../styles/navBar.scss';
 
 function NavBar() {
-  const element = React.useRef<HTMLElement>(null);
-
   function handleClick(
     event: React.MouseEvent<HTMLElement, MouseEvent>,
     anchor: string
