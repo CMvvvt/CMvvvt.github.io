@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.34ad67e5.css",
-    "main.js": "/static/js/main.55d17c95.js",
+    "main.css": "/static/css/main.0438cb1b.css",
+    "main.js": "/static/js/main.e3eddd29.js",
     "static/media/miuiplus.png": "/static/media/miuiplus.be05ccf3f96f43a03a71.png",
     "static/media/miui12.5.png": "/static/media/miui12.5.b42485c088748db3a114.png",
     "static/media/similan.jpg": "/static/media/similan.6e79a1ddd1fae6331a2d.jpg",
+    "static/media/sunset.jpg": "/static/media/sunset.3630b6281744b8aaf6af.jpg",
     "static/media/wechat.jpg": "/static/media/wechat.3a59035528d0df505cf3.jpg",
-    "static/media/sunset.jpg": "/static/media/sunset.2413bcdf73c7a506d360.jpg",
+    "static/media/react-icon.svg": "/static/media/react-icon.fdd3331d261ad6d5e1c92448737aa2aa.svg",
+    "static/media/sass-icon.svg": "/static/media/sass-icon.3b0c24f0b91beef690074ec585746041.svg",
+    "static/media/typescript-icon.svg": "/static/media/typescript-icon.17d5e87eac2c9d1dc722ce1e0b60d5df.svg",
     "index.html": "/index.html",
-    "main.34ad67e5.css.map": "/static/css/main.34ad67e5.css.map",
-    "main.55d17c95.js.map": "/static/js/main.55d17c95.js.map"
+    "main.0438cb1b.css.map": "/static/css/main.0438cb1b.css.map",
+    "main.e3eddd29.js.map": "/static/js/main.e3eddd29.js.map"
   },
   "entrypoints": [
-    "static/css/main.34ad67e5.css",
-    "static/js/main.55d17c95.js"
+    "static/css/main.0438cb1b.css",
+    "static/js/main.e3eddd29.js"
   ]
 }
