@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cbf83436.css",
-    "main.js": "/static/js/main.2869ff8f.js",
+    "main.js": "/static/js/main.d59ca88a.js",
     "static/media/miuiplus.png": "/static/media/miuiplus.be05ccf3f96f43a03a71.png",
     "static/media/miui12.5.png": "/static/media/miui12.5.b42485c088748db3a114.png",
     "static/media/similan.jpg": "/static/media/similan.6e79a1ddd1fae6331a2d.jpg",
@@ -12,10 +12,10 @@
     "static/media/typescript-icon.svg": "/static/media/typescript-icon.17d5e87eac2c9d1dc722ce1e0b60d5df.svg",
     "index.html": "/index.html",
     "main.cbf83436.css.map": "/static/css/main.cbf83436.css.map",
-    "main.2869ff8f.js.map": "/static/js/main.2869ff8f.js.map"
+    "main.d59ca88a.js.map": "/static/js/main.d59ca88a.js.map"
   },
   "entrypoints": [
     "static/css/main.cbf83436.css",
-    "static/js/main.2869ff8f.js"
+    "static/js/main.d59ca88a.js"
   ]
 }
