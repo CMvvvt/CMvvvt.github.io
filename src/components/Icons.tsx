@@ -5,7 +5,7 @@ import '../styles/icons.scss';
 function IconInfo({ item, key }: { item: item; key: number }) {
   return (
     <div className="social" key={key}>
-      <a href={item.link} target="_blank">
+      <a href={item.link} target="_blank" rel="noreferrer">
         <i className={item.name}></i>
       </a>
     </div>
@@ -20,7 +20,7 @@ function makeItems(items: item[]) {
 }
 
 function Icons() {
-  const [icons, setIcons] = React.useState<item[]>(items);
+  const [icons] = React.useState<item[]>(items);
   return <div className="icons">{makeItems(icons)}</div>;
 }
 

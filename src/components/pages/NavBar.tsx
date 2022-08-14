@@ -47,6 +47,3 @@ function NavBar() {
 }
 
 export default NavBar;
-function handleClick(): React.MouseEventHandler<HTMLElement> | undefined {
-  throw new Error('Function not implemented.');
-}

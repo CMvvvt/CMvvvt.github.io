@@ -14,30 +14,36 @@ function Intro() {
           <p>From Sichuan, China.</p>
           <p>
             I'm currently a graduate student @
-            <a href="https://www.northeastern.edu/" target="_blank">
+            <a
+              href="https://www.northeastern.edu/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Northeastern University
-            </a>{' '}
-            in Seattle, WA.
+            </a>
+            .
           </p>
         </div>
 
         <Avatar imageUrl={similan} name="profile" />
-
-        <h5 className="prefix">He/Him</h5>
       </div>
       <br />
       <br />
 
       <p>
         I used to intern @
-        <a href="https://www.mi.com/global/" target="_blank">
+        <a href="https://www.mi.com/global/" target="_blank" rel="noreferrer">
           Xiaomi
         </a>{' '}
         as a software developer.
       </p>
       <p>
-        This summer I will have some fun @
-        <a href="https://about.facebook.com/meta/" target="_blank">
+        This summer I had some fun @
+        <a
+          href="https://about.facebook.com/meta/"
+          target="_blank"
+          rel="noreferrer"
+        >
           Meta
         </a>
         .

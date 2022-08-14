@@ -9,13 +9,17 @@ function Footer() {
     <div className="tech-stack">
       <p>This website used these tools.</p>
       <div>
-        <a href="https://www.typescriptlang.org/" target="_blank">
+        <a
+          href="https://www.typescriptlang.org/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Typescript className={item} />{' '}
         </a>
-        <a href="https://sass-lang.com/" target="_blank">
+        <a href="https://sass-lang.com/" target="_blank" rel="noreferrer">
           <Sass className={item} />
         </a>
-        <a href="https://reactjs.org/" target="_blank">
+        <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
           <ReactIcon className={item} />
         </a>
       </div>

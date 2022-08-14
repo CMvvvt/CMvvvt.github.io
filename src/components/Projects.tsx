@@ -7,7 +7,7 @@ const Fade = require('react-reveal/Fade');
 function Project({ item }: { item: projectType }) {
   return (
     <>
-      <Fade right={item.id == '1'} left={item.id == '0'}>
+      <Fade right={item.id === '1'} left={item.id === '0'}>
         <div className="project-items">
           <Container>
             <img className="items-img" src={item.src} alt={item.src} />
@@ -17,7 +17,7 @@ function Project({ item }: { item: projectType }) {
             </div>
 
             <div className={item.title}>
-              <a href={item.url} target="_blank">
+              <a href={item.url} target="_blank" rel="noreferrer">
                 <div className="text">View</div>
               </a>
             </div>
@@ -33,7 +33,7 @@ function Project({ item }: { item: projectType }) {
 }
 
 function Projects() {
-  const [items, setItems] = React.useState<projectType[]>(projectItems);
+  const [items] = React.useState<projectType[]>(projectItems);
   return (
     <div className="projects-layout">
       {items.map((item) => {
