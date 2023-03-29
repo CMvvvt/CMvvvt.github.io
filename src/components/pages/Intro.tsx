@@ -51,8 +51,8 @@ function Intro() {
 
       <LightSpeed left>
         <p className="check">Check my other pages:</p>
+        <Icons />
       </LightSpeed>
-      <Icons />
     </div>
   );
 }

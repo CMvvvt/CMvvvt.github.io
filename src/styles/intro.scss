@@ -1,20 +1,11 @@
 .header {
   display: flex;
-  align-content: flex-start;
-
-  .prefix {
-    margin-top: 8rem;
-  }
-
-  p {
-    max-width: 50rem;
-  }
+  justify-content: space-between;
 }
 
 .check {
   text-align: center;
-  margin-top: 12rem;
-  margin-bottom: -2rem;
+  margin-top: 200px;
 }
 
 a {
@@ -22,9 +13,8 @@ a {
 }
 
 .intro {
-  height: 95vh;
-  margin-left: 15rem;
-  margin-right: 15rem;
-  padding-top: 12rem;
-  padding-bottom: 5rem;
+  width: 1000px;
+  margin: auto;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
